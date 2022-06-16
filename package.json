@@ -18,6 +18,9 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "prettier": "prettier --write ./**/*.js ./**/*.ts ./**/*.tsx ./**/*.json",
+    "lint": "eslint --max-warnings=0 ./src",
+    "lint:fix": "eslint --fix ./src",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
