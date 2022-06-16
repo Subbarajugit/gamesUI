@@ -23,7 +23,7 @@
       "no-empty-function": "off",
       "react/display-name": "off",
       "react/prop-types": 0,
-      "simple-import-sort/sort": "error"
+      "simple-import-sort/imports": "error"
     },
     "parser": "@typescript-eslint/parser",
     "settings": {
