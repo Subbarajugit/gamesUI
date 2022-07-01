@@ -18,12 +18,16 @@
       "ecmaVersion": 11,
       "sourceType": "module"
     },
-    "plugins": ["react", "@typescript-eslint", "prettier", "simple-import-sort"],
+    "plugins": ["react", "@typescript-eslint", "prettier", "simple-import-sort", "import"],
     "rules": {
       "no-empty-function": "off",
       "react/display-name": "off",
       "react/prop-types": 0,
-      "simple-import-sort/imports": "error"
+      "simple-import-sort/imports": "error",
+      "simple-import-sort/exports": "error",
+      "import/first": "error",
+      "import/newline-after-import": "error",
+      "import/no-duplicates": "error"
     },
     "parser": "@typescript-eslint/parser",
     "settings": {
